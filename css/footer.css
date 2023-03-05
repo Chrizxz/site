@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  height: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+  position: relative;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: black;
+  color: #dadada;
+  text-align: center;
+  height: 80px;
+  line-height: 5;
+  float: left;
+  
+}
+
+.footimg {
+  position: relative;
+  top: 8px;
+  opacity: 80%;
+}
+
+.footimg:hover {
+  opacity: 100%;
+}
+
+
+/*
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+*/
+
+
+ 

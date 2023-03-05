@@ -1,0 +1,62 @@
+
+
+
+.witbtn .whitebttn {
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #dadada;
+  cursor: pointer;
+  font-family: 'm plus rounded 1c', sans-serif;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5px;
+  margin-bottom:5px;
+  width: 40%;
+  transition: .2s ease;
+  float: left;
+}
+
+
+
+
+.whitebttn:hover {
+    background-color: white;
+    color: #333333;
+}
+
+.witbtn {
+  margin-bottom: 20px;
+}
+
+.flex-parent {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .flex-parent {
+      display: block;
+  }
+  .witbtn .whitebttn{
+    margin-top: 5px;
+    margin-bottom:5px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+

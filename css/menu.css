@@ -1,0 +1,120 @@
+
+
+/*m plus rounded 1c | 400;500;700;800;900*/
+
+
+.picbtn .pictubttn {
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+    transition: transform .3s ease-in-out;
+    float: left;
+}
+
+.IMG img {
+    height: auto;
+    width: 70%;
+    border-radius: 15%;
+    border-bottom: solid white .6vh;
+    margin-bottom: 5px;
+}
+
+#textdec2 {
+    border: solid #1d1e22 3px;
+    background-color: #1d1e22;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+    transition: .2s ease-in-out; 
+}
+
+#textdec {
+    border: solid #1d1e22 3px;
+    background-color: #1d1e22;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+    transition: .2s ease-in-out; 
+}
+
+.pictubttn:hover #textdec {
+      border: white;
+      background-color: white;
+      color: #1d1e22;
+      
+  }
+
+
+
+.picbtn {
+    margin-bottom: 20px;
+}
+
+.witbtn2 .whitebttn2 {
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'm plus rounded 1c', sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+    transition: .2s ease;
+    float: left;
+}
+
+.whitebttn2:hover {
+    background-color: white;
+    color: #333333;
+}
+
+.witbtn2 {
+    margin-bottom: 20px;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+    .flex-parent {
+        display: block;
+    }
+    .picbtn .pictubttn {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 78%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .witbtn2 .whitebttn2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+   
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.out {
+  opacity:.4;
+}
+
+
+/**/

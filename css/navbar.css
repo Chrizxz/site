@@ -1,0 +1,282 @@
+
+
+.dropcheck {
+  display: none;
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding:0;
+    background:black;
+}
+
+nav ul li a{
+    color:#dadada;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    line-height: 1;
+}
+nav ul li{
+    border-bottom: 1px #ddd;
+}
+
+
+.dropdown-content {
+  display: none;
+}
+
+.dropcheck {
+  display:none;
+}
+
+
+
+
+  .pulse {
+  animation: none;
+
+}
+
+
+  .pulse:hover {
+  animation: move .4s infinite;
+
+}
+
+
+
+
+@keyframes move {
+  
+  0%  {background:none}
+  1%  {filter: drop-shadow(0px)}
+  20% {filter: drop-shadow(8px 5px 0px #009afc)}
+  25% {filter: drop-shadow(-8px -3px 0px blue)}
+  30% {filter: drop-shadow(0px 7px 0px cyan)}
+  40% {filter: drop-shadow(8px -3px 0px #14539a)}
+  50% {filter: drop-shadow(6px 6px 0px #009afc)}
+  51% {filter: drop-shadow(-6px -6px 0px blue)}
+  59% {filter: drop-shadow(0px)}
+  70% {filter: drop-shadow(-3px 0px 0px #14539a)}
+  74% {filter: drop-shadow(5px 2px 0px #009afc)}
+  76% {filter: drop-shadow(0px)}
+  80% {filter: drop-shadow(-8px 3px 0px cyan)}
+  92% {filter: drop-shadow(-4px 2px 0px blue)}
+  93% {filter: drop-shadow(5px 5px 0px #009afc)}
+  96% {filter: drop-shadow(2px -7px 0px cyan)}
+  97% {filter: drop-shadow(-8px -3px 0px cyan)}
+  99% {filter: drop-shadow(2px -7px 0px #14539a)}
+ 100% {filter: drop-shadow(0px)}
+}
+
+
+
+
+@media only screen and (max-width: 50em){
+
+  .links {
+    display:none;
+  }
+  
+.dropbtn {
+  cursor: pointer;
+}
+
+  
+  
+  .clickit {
+    transition: all .3s ease-in-out;
+}
+
+
+.clickit:active{
+  transform: scale(1.3);
+  transition: .2s;
+
+}
+
+  
+  
+  .pulse {
+  animation: none;
+
+}
+
+
+  .pulse:hover {
+  animation: none;
+
+}
+  
+  
+.dropdown-content {
+  display: none;
+  text-align: center;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: black;
+  
+    
+}
+
+.dropdown-content a {
+  color: #dadada;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+
+  
+  .dropdown-content .icons {
+    display: inline-block;
+    padding: 1em 10px;
+    transition: transform .3s ease-in-out;
+    color: white;
+    opacity: 90%;
+  }
+  
+    .dropdown-content .icons:hover {
+      opacity: 100%;
+      transform: scale(1.5);
+
+  }
+  
+  
+  
+  .dropcheck {    
+    position: absolute;
+    left: -9999px;
+
+}
+
+.dropcheck:checked ~ .dropdown-content {
+  display: block;
+}
+
+.dropcheck:checked + .dropbtn {
+  background-color: black;
+}
+  
+  
+  
+  
+  
+  a.middle
+{
+    position: relative;
+}
+
+a.middle:before,a.middle:after {
+  content: "";
+        position: absolute;
+        bottom:0px;
+        right: 0;
+        width:0%;
+        height: 2px;
+        background:white;
+        transition: .2s width ease-in-out;
+}
+
+  a.middle:before {
+    left: 0
+  }
+  
+  
+a.middle:hover:after,a.middle:hover:before {
+  width: 50%;
+}
+  
+  
+}
+
+
+/*https://paulund.co.uk/css-animation-link-underline*/
+
+
+
+/*styling logo*/
+
+nav div:first-child{
+    background:black;
+}
+nav div:first-child h1{
+    line-height: 0;
+    padding: 0px 0rem;
+    text-align: center;
+}
+nav div:first-child img{
+    /*filter: contrast(1);*/
+    opacity: 90%;
+    width: 100px;
+    height: auto;
+    /*transition: transform .3s ease-in-out;*/
+}
+
+
+nav div:first-child h1, nav ul{
+    margin:0;
+}
+
+
+
+
+/*Styling for larger devices*/
+
+/*this is for when u shrink and then it switch to mobile*/
+@media only screen and (min-width: 50em){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background: black;
+        align-items: center;
+  
+      
+      
+  }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        background:none;
+        flex-wrap: wrap;
+    }
+    nav div:first-child h1{
+        padding: 0;
+        margin:-20px 1rem;
+    }
+    nav div:first-child img{
+        height: 100px;
+        
+    }
+    nav ul li{
+        border-bottom:none;
+        flex: 1 0 auto;
+        position: relative;
+    }
+    nav ul li a{
+        padding:0px 1rem;
+    }
+    nav ul li a::before, nav ul li a::after{
+        content: "";
+        position: absolute;
+        bottom:-6px;
+        right: 0;
+        width:0%;
+        height: 2px;
+        background:white;
+        transition: .2s width ease-in-out;
+    }
+    
+    nav ul li a::before{
+        left:0;
+    }
+    
+    nav ul li a:hover::after,nav ul li a:hover::before{
+        width: 50%;
+    } 
+   
+}

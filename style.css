@@ -1,0 +1,113 @@
+
+
+body {
+  background: url("./assets/streambg2.png"); /*linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),*/
+  background-attachment: fixed;
+  background-color: #009afc;
+  background-size: cover;
+  font-family: 'source sans pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #dadada;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+}
+
+
+ h1 {
+  font-family: 'baloo 2' ,cursive;
+  font-size: 52px;
+  font-style: normal;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'baloo 2' ,cursive;
+  font-size: 32px;
+  font-style: normal;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ h3 {
+  font-family: 'baloo 2' ,cursive;
+  font-size: 22px;
+  color: #dadada;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+p1 {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 0em;
+  margin-bottom: 3em;
+}
+
+a {
+  color: #dadada;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.last {
+  margin-bottom: 6em;
+  text-align: center;
+}
+
+#wrapper {
+min-height:100%;
+position:relative;
+}
+
+
+/*m plus rounded 1c Weights: 400;500;700;800;900*/
+
+
+html {
+  scroll-behavior: smooth
+}
+
+
+
+html {
+  --scrollbarBG: #1b1e20;
+  --thumbBG: #cfcfcf;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #009afc; 
+}
+
+
+
+
+
