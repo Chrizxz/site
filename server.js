@@ -22,5 +22,5 @@ app.use(express.json());
 // Start the server
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Server started on `.blue + `http://localhost:${port}`.cyan.underline);
+  console.log(`Server started on `.blue + `Port: ${port}`.cyan.underline);
 });

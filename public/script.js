@@ -40,3 +40,11 @@ function topFunction() {
 
 
 // -------------------
+
+fetch("../config.json")
+  .then(response => response.json())
+  .then(data => {
+    const footer = document.getElementById("copyrightYear");
+    footer.textContent = `${data.year}`;
+  })
+  .catch(error => console.error(error));
