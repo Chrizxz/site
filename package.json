@@ -1,7 +1,8 @@
 {
   "name": "chftwsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chriz's Website",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js"
@@ -10,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/Chrizxz/site.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["website", "chftw", "portfolio"],
+  "author": "ChrizxzFTW",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chrizxz/site/issues"

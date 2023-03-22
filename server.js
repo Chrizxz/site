@@ -1,13 +1,9 @@
-const express = require('express');
-const app = express();
-const mongoose = require('mongoose');
-const ejs = require('ejs');
-const colors = require('colors');
-
-
-if (process.env.NODE_ENV !== 'production') {
-require("dotenv").config();
-}
+import express from 'express';
+import mongoose from 'mongoose';
+import ejs from 'ejs';
+import colors from 'colors';
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Serve frontend files
 app.use(express.static('public'));
