@@ -4,6 +4,7 @@ import ejs from 'ejs';
 import colors from 'colors';
 import dotenv from 'dotenv';
 dotenv.config();
+const app = express();
 
 // Serve frontend files
 app.use(express.static('public'));
