@@ -4,7 +4,6 @@ body {
   background-color: #121212;
   background-size: cover;
   font-family: 'source sans pro', sans-serif;
-  font-weight: 700;
   font-style: normal;
   color: #dadada;
   line-height: 20px;
@@ -116,36 +115,16 @@ body::-webkit-scrollbar-thumb {
 
 /*
 
-Font: M Plus Rounded 1c 
-Weights: 900
-
 Font: Source Sans Pro
-Weights: 400, 700
+Weights: 600
 
 Font: Baloo 2
-Weights: 400
+Weights: 700
 
-Font: Roboto
-Weights: 400, 700
+Font: Noto Sans JP
+Weights: 400, 500
 
-Font: Roboto Mono
-Weights: 400, 700
-
-Font: Roboto Slab
-Weights: 400, 700
-
-Font: Open Sans
-Weights: 400, 700
-
-Font: Montserrat
-Weights: 400, 700
-
-Font: Lato
-Weights: 400, 700
-
-Font: Raleway
-Weights: 400, 700
-
-
+Font: M Plus Rounded 1c 
+Weights: 900
 
 */

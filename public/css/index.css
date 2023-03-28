@@ -150,7 +150,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 49%);
+    background:hsl(203, 100%, 59%);
     color:white;
     border-radius: 15px;
 }
@@ -159,7 +159,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 39%);
+    background:hsl(203, 100%, 49%);
     color:white;
     border-radius: 15px;
 }
@@ -168,7 +168,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 29%);
+    background:hsl(203, 100%, 39%);
     color:white;
     border-radius: 15px;
 }
@@ -258,7 +258,7 @@
     justify-content: center;
 }
 
-.cglow1 {
+.glow1 {
     width:1px;
     height: 1px;
     background-color: #0C80B2;
@@ -271,7 +271,7 @@
     z-index: 1;
 }
 
-.cglow2 {
+.glow2 {
     width:1px;
     height: 1px;
     background-color: #095C80;
@@ -285,7 +285,7 @@
     z-index: 1;
 }
 
-.cglow3 {
+.glow3 {
     width:1px;
     height: 1px;
     background-color: #07445E;
