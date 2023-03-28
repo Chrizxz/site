@@ -1,18 +1,8 @@
-html,
-body {
-  padding: 0;
-  height: 100%;
-}
-
-.wrap {
-  min-height: 100%;
-  position: relative;
-}
-
 .footer {
   width: 100%;
   bottom: 0px;
-  background-color: black;
+  background-color: transparent;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
   color: #dadada;
   text-align: center;
   height: 80px;
@@ -21,26 +11,18 @@ body {
   
 }
 
+.footindex {
+  background-color: #00101f !important;
+}
+
 .footimg {
   position: relative;
   top: 8px;
   opacity: 80%;
+  width: 30px;
+  height: 30px;
 }
 
 .footimg:hover {
   opacity: 100%;
 }
-
-
-/*
-position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-*/
-
-
- 

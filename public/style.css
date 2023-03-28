@@ -1,9 +1,7 @@
-
-
 body {
-  background: url("./assets/streambg2.png"); /*linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),*/
+  background: url("./assets/streambg2.png");
   background-attachment: fixed;
-  background-color: #009afc;
+  background-color: #121212;
   background-size: cover;
   font-family: 'source sans pro', sans-serif;
   font-weight: 700;
@@ -12,10 +10,11 @@ body {
   line-height: 20px;
   margin: 0;
   position: relative;
+  height: 100%;
+  padding: 0;
 }
 
-
- h1 {
+h1 {
   font-family: 'baloo 2' ,cursive;
   font-size: 52px;
   font-style: normal;
@@ -35,7 +34,7 @@ h2 {
   margin-bottom: 10px;
 }
 
- h3 {
+h3 {
   font-family: 'baloo 2' ,cursive;
   font-size: 22px;
   color: #dadada;
@@ -74,19 +73,10 @@ min-height:100%;
 position:relative;
 }
 
-
-/*m plus rounded 1c Weights: 400;500;700;800;900*/
-
-
 html {
-  scroll-behavior: smooth
-}
-
-
-
-html {
-  --scrollbarBG: #1b1e20;
+  --scrollbarBG: #121212;
   --thumbBG: #cfcfcf;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -107,7 +97,55 @@ body::-webkit-scrollbar-thumb {
   background: #009afc; 
 }
 
+@media only screen and (max-width: 700px) {
+  h1 {
+      font-family: 'baloo 2' ,cursive;
+      font-size: 32px !important;
+  }
+
+  h2 {
+      font-family: 'baloo 2' ,cursive;
+      font-size: 22px !important;
+  } 
+
+  h3 {
+      font-family: 'baloo 2' ,cursive;
+      font-size: 18px !important;
+  }
+}
+
+/*
+
+Font: M Plus Rounded 1c 
+Weights: 900
+
+Font: Source Sans Pro
+Weights: 400, 700
+
+Font: Baloo 2
+Weights: 400
+
+Font: Roboto
+Weights: 400, 700
+
+Font: Roboto Mono
+Weights: 400, 700
+
+Font: Roboto Slab
+Weights: 400, 700
+
+Font: Open Sans
+Weights: 400, 700
+
+Font: Montserrat
+Weights: 400, 700
+
+Font: Lato
+Weights: 400, 700
+
+Font: Raleway
+Weights: 400, 700
 
 
 
-
+*/
