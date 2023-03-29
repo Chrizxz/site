@@ -150,7 +150,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 59%);
+    background:#009afc;
     color:white;
     border-radius: 15px;
 }
@@ -159,7 +159,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 49%);
+    background:#009afc;
     color:white;
     border-radius: 15px;
 }
@@ -168,7 +168,7 @@
     line-height: 0;
     display: inline-block;
     padding: 0 .05em .4em .05em;
-    background:hsl(203, 100%, 39%);
+    background:#009afc;
     color:white;
     border-radius: 15px;
 }
