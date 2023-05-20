@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+.container {
+  min-height: 100vh;
+}
+
 h1 {
   font-family: 'baloo 2' ,cursive;
   font-size: 52px;

@@ -1,14 +1,16 @@
 .footer {
+  height: 10vmin;
+  padding-top: 10vmin;
   width: 100%;
-  bottom: 0px;
+  /* position: relative; */
+  bottom: 0%;
   background-color: transparent;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
   color: #dadada;
   text-align: center;
-  height: 80px;
-  line-height: 5;
+  /* font-size: 2.3vmin; */
+  line-height: 10vmin;
   float: left;
-  
 }
 
 .footindex {
@@ -17,10 +19,10 @@
 
 .footimg {
   position: relative;
-  top: 8px;
+  top: 8px; /* 1.4vmin */
   opacity: 80%;
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: 30px; /* 4vmin */
 }
 
 .footimg:hover {
