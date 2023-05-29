@@ -1,0 +1,137 @@
+<!--
+            <div class="aboutMeParent">
+                <div style="margin-top:3em" class="divider"></div>
+            </div>
+
+
+           /* <section onmousedown="return false;" id="socials">
+                <h1 class="h22" style="padding-top:2em;margin-bottom:2vh">
+                    My Socials
+                </h1>
+                <p1 class="p12" style="margin-bottom:5vh">
+                    I try to post as much as I can on all of my socials so make sure to follow them. You won’t be disappointed!
+
+                </p1>
+
+              
+
+
+                <div class="witbtn flex-parent jc-center">
+
+                    <style>
+                        .discbttn {
+                            color: white;
+                            background-color: #7289da;
+                            box-shadow: 0 8px #3556ca;
+                        }
+                        
+                        .discbttn:hover {
+                            background-color: #7289da;
+                            color: white;
+                        }
+                        
+                        .ytbttn {
+                            color: white;
+                            background-color: #fe0000;
+                            box-shadow: 0 8px #b20000;
+                        }
+                        
+                        .ytbttn:hover {
+                            background-color: #fe0000;
+                            color: white;
+                        }
+                    </style>
+
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://dsc.gg/bapplause" class="whitebttn discbttn" rel="noopener noreferrer"><i class="fab fa-discord"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> Bapplause Gang</div>
+          </a>
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://www.youtube.com/bapplause?sub_confirmation=1" class="whitebttn ytbttn" rel="noopener noreferrer"><i class="fab fa-youtube"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> Bapplause</div>
+          </a>
+
+
+
+                </div>
+
+
+
+                <div class="witbtn flex-parent jc-center">
+
+                    <style>
+                        .twitbttn {
+                            color: white;
+                            background-color: #9147ff;
+                            box-shadow: 0 8px #6400fa;
+                        }
+                        
+                        .twitbttn:hover {
+                            background-color: #9147ff;
+                            color: white;
+                        }
+                        
+                        .tweetbttn {
+                            color: white;
+                            background-color: #53abec;
+                            box-shadow: 0 8px #1888da;
+                        }
+                        
+                        .tweetbttn:hover {
+                            background-color: #53abec;
+                            color: white;
+                        }
+                    </style>
+
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://twitch.tv/bapplause" class="whitebttn twitbttn" rel="noopener noreferrer"><i class="fab fa-twitch"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> Bapplause</div>
+          </a>
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://www.twitter.com/bapplauseyt/" class="whitebttn tweetbttn" rel="noopener noreferrer"><i class="fab fa-twitter"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> @BapplauseYT</div>
+          </a>
+
+
+
+                </div>
+
+
+
+                <div class="witbtn flex-parent jc-center">
+
+                    <style>
+                        .instbttn {
+                            background: rgb(131, 58, 180);
+                            background: linear-gradient(135deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+                            color: white;
+                            box-shadow: 0 8px #d31d03;
+                        }
+                        
+                        .instbttn:hover {
+                            background-color: #14539a;
+                            color: white;
+                        }
+                        
+                        .tikbttn {
+                            color: white;
+                            background-color: black;
+                            box-shadow: 0 8px white;
+                        }
+                        
+                        .tikbttn:hover {
+                            background-color: black;
+                            color: white;
+                        }
+                        
+                    </style>
+
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://www.instagram.com/benburtonio/" class="whitebttn instbttn" rel="noopener noreferrer"><i class="fab fa-instagram"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> BenBurtonIo</div>
+          </a>
+                    <a style="font-size:5.8vmin;line-height:3vw;border:none;" href="https://www.tiktok.com/@bapplause" class="whitebttn tikbttn" rel="noopener noreferrer"><i class="fab fa-tiktok"></i>
+            <div style="font-size:2.8vmin;line-height:2.6vw"> @Bapplause</div>
+          </a>
+
+
+
+                </div>
+
+
+            </section> -->

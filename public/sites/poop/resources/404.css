@@ -1,0 +1,135 @@
+.witbtn .whitebttn {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    cursor: pointer;
+    font-family: 'm plus rounded 1c', sans-serif;
+    font-size: 20px;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 30%;
+    transition: transform .2s ease-out;
+    float: left;
+}
+
+.whitebttn:hover {
+    background-color: white;
+    color: #333333;
+    transform: translateY(-.15em);
+}
+
+.witbtn {
+    margin-bottom: 20px;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+    .flex-parent {
+        display: block;
+    }
+    .witbtn .whitebttn {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .scrllAnim {
+        animation: comedown 1.5s;
+        animation-delay: .5s;
+        transform: translate(0, -35px);
+        opacity: 0;
+        animation-fill-mode: forwards, none;
+    }
+}
+
+@keyframes comedown {
+    0% {
+        transform: translate(0px, -20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
+
+/*
+    60% {transform: scale(1.1,1.1)}
+    95% {transform: scale(1,1)} 
+    100% {transform: scale(1,1)}
+  
+  -------
+  
+      0% {
+          transform: scale(0, .025);
+      }
+      50% {
+          transform: scale(1, .025);
+      }
+  
+  */
+
+.aboutMeWrap {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    margin-bottom: 17vh;
+    border-radius: 15px;
+    padding: 40px;
+    background: #36393f;
+    width: 66vw;
+    box-shadow: 0 8px #131416;
+}
+
+.aboutMeParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p11 {
+    text-align: center;
+    font-size: 3vmin;
+    line-height: 2vw;
+}
+
+.h21 {
+    text-align: center;
+    font-size: 3.8vw;
+}
+
+@media only screen and (max-width: 770px) {
+    .aboutMeWrap {
+        display: block;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .h21 {
+        text-align: center;
+        font-size: 7vw;
+        line-height: 7.5vw;
+    }
+    .p11 {
+        text-align: center;
+        margin: 0em;
+        font-size: 2.6vw;
+        line-height: 3vw;
+    }
+}
