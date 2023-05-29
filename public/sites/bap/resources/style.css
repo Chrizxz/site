@@ -13,6 +13,48 @@ body {
     position: relative;
 }
 
+.discontinuedParent {
+  display: flex;
+  justify-content: center;
+}
+
+.discontinued {
+  /* display: block; */
+  font-family: 'baloo 2' ,cursive;
+  top: -5vh;
+  font-size: 2vh;
+  color: #f23f42;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  line-height: 4vh;
+  background-color: #511415;
+  border: solid #f23f42 .3vh;
+  border-radius: 5vmin;
+  position: fixed;
+  z-index: 999;
+  animation: discontinued .7s ease;
+  animation-delay: 2s;
+  animation-fill-mode: forwards, none;
+  /* margin-top: 5vh; */
+  /* border-right: none;
+  border-left: none; */
+}
+
+@keyframes discontinued {
+  1% {
+    top:-5vh;
+    /* transform: translateY(-5vh); */
+  }
+  70% {
+    top: 7vh;
+    /* transform: translateY(12vh); */
+  }
+  100% {
+    top: 5vh;
+    /* transform: translateY(10vh); */
+  }
+}
+
 h1 {
     /*font-family: 'bungee', cursive;*/
     font-family: 'hotGrill';
