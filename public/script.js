@@ -1,6 +1,13 @@
 console.log("hi");
 
 
+const metaURL = document.getElementById('metaURL');
+const actualURL = window.location.href;
+console.log(actualURL);
+const replaceURL = metaUrl.getAttribute('content').replace('{url}', actualURL);
+metaURL.setAttribute('content', replaceURL);
+
+
 /*
 
 window.oncontextmenu = () => {
