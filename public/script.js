@@ -1,11 +1,13 @@
 console.log("hi");
 
+function replaceURL() {
+  const metaURL = document.getElementById('metaURL');
+  const actualURL = window.location.href;
+  const replaceURL = metaURL.getAttribute('content').replace('{url}', actualURL);
+  metaURL.setAttribute('content', replaceURL);
+}
 
-const metaURL = document.getElementById('metaURL');
-const actualURL = window.location.href;
-console.log(actualURL);
-const replaceURL = metaURL.getAttribute('content').replace('{url}', actualURL);
-metaURL.setAttribute('content', replaceURL);
+replaceURL();
 
 
 /*
