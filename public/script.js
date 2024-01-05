@@ -1,13 +1,30 @@
 console.log("hi");
 
 function replaceURL() {
-  const metaURL = document.getElementById('metaURL');
+  const metaURL = document.querySelectorAll('.metaURL');
   const actualURL = window.location.href;
-  const replaceURL = metaURL.getAttribute('content').replace('{url}', actualURL);
-  metaURL.setAttribute('content', replaceURL);
+    metaURL.forEach(metaURLs => {
+    const replaceURL = metaURLs.getAttribute('content').replace('{url}', actualURL);
+    metaURLs.setAttribute('content', replaceURL);
+  });
 }
 
 replaceURL();
+
+
+
+
+// function replaceURLs() {
+//   const actualURL = window.location.href;
+//   const metaURLs = document.querySelectorAll('.metaURL');
+
+//   metaURLs.forEach(metaURL => {
+//     const replaceURL = metaURL.getAttribute('content').replace('{url}', actualURL);
+//     metaURL.setAttribute('content', replaceURL);
+//   });
+// }
+// replaceURLs();
+
 
 
 /*
