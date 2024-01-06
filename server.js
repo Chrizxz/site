@@ -5,6 +5,7 @@ import colors from 'colors';
 import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
+module.exports = app;
 
 // frontend files
 app.use(express.static('public'));
