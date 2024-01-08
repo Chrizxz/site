@@ -10,7 +10,7 @@ module.exports = app;
 // frontend files
 app.use(express.static('public'));
  
-// mongoose.connect(process.env.DB_URI, { dbName: "clt", useNewUrlParser: true, useUnifiedTopology: true, });
+// mongoose.connect(process.env.DB_URI, { dbName: "clt", useNewUrlParser: true, useUnifiedTopology: true });
 // const db = mongoose.connection;
 // db.on('error', (error) => console.error(error));
 // db.once('open', () => console.log('Connected to Database'));
@@ -46,10 +46,10 @@ app.get('*', (req, res) => {
   const path = req.path;
   const location = redirectMap.get(path);
   if (location) {
-    res.redirect(301, location);
-  } else {
-    res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
-  }
+    res.redirect(301, location); }
+  // } else {
+  //   res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
+  // }
 });
 
 app.use(express.json());
