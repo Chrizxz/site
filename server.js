@@ -3,20 +3,11 @@ import mongoose from 'mongoose';
 import ejs from 'ejs';
 import colors from 'colors';
 import dotenv from 'dotenv';
-import path from 'path';
 dotenv.config();
 const app = express();
-// module.exports = app;
-export default app;
-
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
 // frontend files
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+app.use(express.static('public'));
  
 // mongoose.connect(process.env.DB_URI, { dbName: "clt", useNewUrlParser: true, useUnifiedTopology: true });
 // const db = mongoose.connection;
