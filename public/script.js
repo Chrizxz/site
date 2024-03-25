@@ -3,7 +3,7 @@ console.log("hi");
 function replaceURL() {
   const metaURL = document.querySelectorAll('.metaURL');
   const actualURL = window.location.href;
-    metaURL.forEach(metaURLs => {
+  metaURL.forEach(metaURLs => {
     const replaceURL = metaURLs.getAttribute('content').replace('{url}', actualURL);
     metaURLs.setAttribute('content', replaceURL);
   });
