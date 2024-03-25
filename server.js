@@ -10,6 +10,9 @@ export default app;
 
 // frontend files
 app.use(express.static('public'));
+
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'public'));
  
 // mongoose.connect(process.env.DB_URI, { dbName: "clt", useNewUrlParser: true, useUnifiedTopology: true });
 // const db = mongoose.connection;
@@ -60,7 +63,3 @@ const port = process.env.PORT || 6969;
 app.listen(port, () => {
   console.log(`Server started on `.blue + `Port: ${port}`.cyan.underline);
 });
-
-app.get("/", (req, res) => { 
-  res.sendFile(__dirname + "/public/index.html");
- });
