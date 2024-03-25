@@ -61,4 +61,6 @@ app.listen(port, () => {
   console.log(`Server started on `.blue + `Port: ${port}`.cyan.underline);
 });
 
-app.get("/", (req, res) => { res.send("Express on Vercel"); });
+app.get("/", (req, res) => { 
+  res.sendFile(__dirname + "/public/index.html");
+ });
