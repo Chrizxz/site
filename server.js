@@ -11,8 +11,9 @@ export default app;
 // frontend files
 app.use(express.static('public'));
 
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'public'));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
  
 // mongoose.connect(process.env.DB_URI, { dbName: "clt", useNewUrlParser: true, useUnifiedTopology: true });
 // const db = mongoose.connection;
