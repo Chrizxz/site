@@ -2,7 +2,6 @@
   "name": "chftwsite",
   "version": "1.0.0",
   "description": "Chriz's Website",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js"
@@ -11,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/Chrizxz/site.git"
   },
-  "keywords": ["website", "chftw", "portfolio"],
+  "keywords": [
+    "website",
+    "chftw",
+    "portfolio"
+  ],
   "author": "ChrizxzFTW",
   "license": "ISC",
   "bugs": {
@@ -20,12 +23,14 @@
   "homepage": "https://github.com/Chrizxz/site#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "esm": "^3.2.25",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "mongoose": "^7.0.0",
     "node-fetch": "^3.3.0",
-    "dotenv": "^16.0.3"
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
