@@ -8,26 +8,11 @@ function replaceURL() {
     metaURLs.setAttribute('content', replaceURL);
   });
 }
-
 replaceURL();
 
-
-
-
-// function replaceURLs() {
-//   const actualURL = window.location.href;
-//   const metaURLs = document.querySelectorAll('.metaURL');
-
-//   metaURLs.forEach(metaURL => {
-//     const replaceURL = metaURL.getAttribute('content').replace('{url}', actualURL);
-//     metaURL.setAttribute('content', replaceURL);
-//   });
-// }
-// replaceURLs();
-
-
-
 /*
+
+// disables context menu and F12
 
 window.oncontextmenu = () => {
   return false;
@@ -38,9 +23,6 @@ document.onkeydown = e => {
 };
 
 */
-
-
-
 
 //Get the button:
 const mybutton = document.getElementById("myBtn");
@@ -67,10 +49,13 @@ function topFunction() {
 
 // -------------------
 
-fetch("./config.json")
-  .then(response => response.json())
-  .then(data => {
-    const footer = document.getElementById("copyrightYear");
-    footer.textContent = `${data.year}`;
-  })
-  .catch(error => console.error(error));
+
+// fetch("./config.json")
+//   .then(response => response.json())
+//   .then(data => {
+//     const footer = document.getElementById("copyrightYear");
+//     footer.textContent = `${data.year}`;
+//   })
+//   .catch(error => console.error(error));
+//
+// (<span id="copyrightYear"></span>)
